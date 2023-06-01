@@ -61,7 +61,7 @@ function chatStripe(isAi, value, uniqueId) {
       `;
 }
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://lucianobotchatcompletion.onrender.com/";
 
 const handleSubmit = async (e) => {
   e.preventDefault();
